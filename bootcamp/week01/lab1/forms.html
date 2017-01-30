@@ -7,12 +7,12 @@
         <form>
             <div>
                 <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" placeholder="John">
+                <input type="text" name="firstName" placeholder="John" required>
                 <label for="firstName">Last Name:</label>
-                <input type="text" name="lastName" placeholder="Smith">                
+                <input type="text" name="lastName" placeholder="Smith" required>                
             </div>
             <div>
-                <label for="male" name="radio-choice">Male</label>
+                <label for="male" name="radio-choice" required>Male</label>
                 <input type="radio" name="radio-choice" value="male">
                 <label for="male" name="radio-choice">Female</label>
                 <input type="radio" name="radio-choice" value="female"> 
@@ -21,9 +21,9 @@
             </div>
             <div>
                 <label for="email">Email:</label>
-                <input type="email" name="email">
+                <input type="email" name="email" required>
                 <label for="password">Password:</label>
-                <input type="password" name="password" />                
+                <input type="password" name="password" required />                
             </div>
             <div>
                 <label for="birthday">Birthday:</label>
