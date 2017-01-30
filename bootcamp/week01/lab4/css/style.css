@@ -1,0 +1,23 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 10px solid #ccc;
+}
+
+.date {
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #000;
+}
+
+blockquote {
+   border-left: 3px solid #ccc;
+}
